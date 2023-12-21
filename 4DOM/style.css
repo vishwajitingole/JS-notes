@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    color: rgba(255, 255, 255, 0.772);
+    background-color: #000000;
+}
+
+button {
+    margin-top: 4vh;
+    padding: 1vw 1.3vw;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.heading {
+    margin-bottom: 2vh;
+}
+
+.btn {
+    background-color: #777977;
+}

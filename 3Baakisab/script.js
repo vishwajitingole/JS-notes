@@ -75,7 +75,42 @@
 //Here we have added event listener to a div container
 //so if we didn't have an event listener to button it will look out for the parent div
 //It will use the event listener for the parent div
-//This is known as Event bubbling
 
-var btn = document.querySelector(".container");
-btn.addEventListener("click", () => {});
+//This is known as Event bubbling
+// var btn = document.querySelector(".container");
+// btn.addEventListener("click", (details) => {
+// console.log(details.target);//<button>Play</button>
+//   if (details.target.className == "play") {
+//     console.log("Played");
+//   }
+//   if (details.target.className == "pause") {
+//     console.log("Paused");
+//   }
+// });
+
+//HOFS:- Higher Order Functions
+// function abcd() {
+//   return () => {
+//     console.log("Hello");
+//   };
+// }
+
+//Error Handling
+// const divide = (a, b) => {
+//   try {
+//     if (b == 0) {
+//       throw Error("Daaya kuch toh gadbaddd hai");
+//     }
+//     console.log(a / b);
+//   } catch (err) {//console.log(err);
+//     console.error(err);
+//   }
+// };
+// divide(2, 0);
+
+//Creating Custom Events
+const eve = new Event("chacha");
+document.querySelector(".cbtn").addEventListener("chacha", () => {
+  console.log("ha ha ja rha ");
+});
+document.querySelector(".cbtn").dispatchEvent(eve);
