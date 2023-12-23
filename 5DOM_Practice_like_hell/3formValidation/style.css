@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://media.istockphoto.com/id/1301397300/photo/portrait-of-young-woman-stock-photo.jpg?s=1024x1024&w=is&k=20&c=-q3D6DZVNFtlbaVEGDtGFU907PSZTBHkUlxBzvCSvX0=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10vw 10vw;
+    gap: 2vw;
+    justify-content: center;
+    position: relative;
+}
+
+button {
+    background-color: black;
+    padding: 1vw 1.3vw;
+    position: absolute;
+}
