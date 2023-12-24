@@ -18,7 +18,6 @@ add.addEventListener("click", () => {
 
 remove.addEventListener("click", () => {
   var liToRemove = ul.lastElementChild;
-  if (liToRemove) {
-    ul.removeChild(liToRemove);
-  }
+
+  ul.removeChild(liToRemove);
 });
