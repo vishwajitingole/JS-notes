@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(232, 174, 133);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 1.2vw 2.3vw;
+}
+
+.container {
+  text-align: center;
+}
+
+.t {
+  display: none;
+}

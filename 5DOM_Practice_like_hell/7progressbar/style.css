@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://img.freepik.com/premium-photo/sweet-girl-surfing-internet-computer-bed-sexy-lips-woman-using-laptop-bedroom_723208-119.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  gap: 3vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45vh;
+  gap: 5vh;
+}
+
+.download {
+  position: relative;
+  height: 1vh;
+  width: 40vw;
+  background-color: grey;
+  overflow: hidden;
+  border-radius: 10vw;
+}
+
+.progress {
+  position: absolute;
+  height: 100vh;
+  width: 0vw;
+  background-color: green;
+}
+
+button {
+  padding: 1vw 2.3vw;
+  border-radius: 2vw;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+button::after {
+  position: absolute;
+  content: "";
+  background-color: blueviolet;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  margin-top: 50%;
+  z-index: -2;
+  transition: all ease 1s;
+}
+
+button:hover::after {
+  transform: scale(400);
+}

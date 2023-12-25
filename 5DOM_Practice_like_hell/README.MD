@@ -8,4 +8,6 @@ Create an unordered list Allow users to add and remove the list items dynamicall
 
 Build a countdown timer that starts when a button is clicked and updates the display in real-time.
 
-Create a tabbed interface where clicking on tabs display
+Create a tabbed interface where clicking on tabs display different content
+
+Create a download progress bar
