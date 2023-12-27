@@ -36,6 +36,22 @@ data = [
     name: "barbie",
     src: "https://plus.unsplash.com/premium_photo-1661548271175-6163149fc57c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fHNleHklMjBnaXJscyUyMHBvcnRyYWl0fGVufDB8fDB8fHww",
   },
+  {
+    name: "bella",
+    src: "https://images.unsplash.com/photo-1666979303152-d1678dc0eefa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fHNleHklMjBnaXJscyUyMHBvcnRyYWl0fGVufDB8fDB8fHww",
+  },
+  {
+    name: "bella",
+    src: "https://images.unsplash.com/photo-1583900985737-6d0495555783?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHNleHklMjBnaXJscyUyMHBvcnRyYWl0fGVufDB8fDB8fHww",
+  },
+  {
+    name: "bella",
+    src: "https://images.unsplash.com/photo-1522322904670-5cf2a8529d21?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fHNleHklMjBnaXJscyUyMHBvcnRyYWl0fGVufDB8fDB8fHww",
+  },
+  {
+    name: "bella",
+    src: "https://images.unsplash.com/photo-1515161318750-781d6122e367?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTB8fHNleHklMjBnaXJscyUyMHBvcnRyYWl0fGVufDB8fDB8fHww",
+  },
 ];
 var person = ""; //so our person doesn't have an undefined value
 data.forEach(function (elem) {

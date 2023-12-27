@@ -29,6 +29,8 @@ input {
 .people {
   display: flex;
   gap: 2vw;
+  width: fit-content;
+  align-items: center;
   justify-content: center;
 }
 
@@ -39,6 +41,7 @@ input {
   justify-content: flex-start;
   align-items: center;
   gap: 2vw;
+  animation: anim 20s linear infinite;
 }
 
 .img {
@@ -60,5 +63,14 @@ h1 {
 @media (max-width: 600px) {
   h1 {
     font-size: 20px;
+  }
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100vw);
   }
 }
