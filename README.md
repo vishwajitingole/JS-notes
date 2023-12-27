@@ -25,7 +25,7 @@
         <li>Code editor of your choice (e.g., Visual Studio Code, Sublime Text).</li>
     </ul>
     <h3>Clone the Repository</h3>
-    <pre><code>git clone https://github.com/your-username/dom-practice.git
+    <pre><code>git clone https://github.com/vishwajit022/JS-notes
 cd dom-practice</code></pre>
     <h2>Usage</h2>
     <ol>
