@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(214, 214, 214);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  padding: 10vw 30vw;
+}
+
+input {
+  width: 100%;
+  padding: 12px 22px;
+  font-size: 30px;
+  font-weight: 500;
+  outline-color: skyblue;
+}
+
+.people {
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+}
+
+.person {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2vw;
+}
+
+.img {
+  width: 15vw;
+  height: 15vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img img {
+  width: 15vw;
+  height: 15vw;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+}
