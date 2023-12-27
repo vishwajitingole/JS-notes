@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Practice Repository</title>
+    
 </head>
-
 <body>
     <h1>DOM Practice Repository</h1>
     <img src="https://www.freecodecamp.org/news/content/images/2021/09/Document.jpg" alt="DOM Practice">
@@ -26,8 +25,8 @@
         <li>Code editor of your choice (e.g., Visual Studio Code, Sublime Text).</li>
     </ul>
     <h3>Clone the Repository</h3>
-    <pre><code>git clone https://github.com/your-username/dom-practice.git
-cd dom-practice</code></pre>
+    <pre><code>git clone https://github.com/vishwajit022/JS-notes
+cd JS-notes</code></pre>
     <h2>Usage</h2>
     <ol>
         <li>Review the existing code examples in the repository.</li>
@@ -40,7 +39,5 @@ cd dom-practice</code></pre>
     <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
     <h2>Acknowledgments</h2>
     <p>Special thanks to W3Schools & FreeCodeCamp.org for inspiration </p>
-
 </body>
-
 </html>
