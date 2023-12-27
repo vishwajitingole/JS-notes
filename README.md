@@ -26,7 +26,7 @@
     </ul>
     <h3>Clone the Repository</h3>
     <pre><code>git clone https://github.com/vishwajit022/JS-notes
-cd dom-practice</code></pre>
+cd JS-notes</code></pre>
     <h2>Usage</h2>
     <ol>
         <li>Review the existing code examples in the repository.</li>
