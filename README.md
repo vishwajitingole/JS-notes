@@ -1,3 +1,4 @@
+ <h1><a href="https://quip.com/3zrZArngTSfp/JS-Concepts">For Better Readability Click here</a></h1>
 Event deligation in js
 Event delegation ek JavaScript technique hai jisme ek parent element ke through hi event handling hoti hai, child elements par individually nahi. Isse code efficient hota hai aur new elements add karne mein bhi asaan ho jata hai.
 Basic idea yeh hai ki parent element par event listener lagaya jata hai, aur phir event bubble up hota hai jab koi specific child element par event hota hai. Parent element event ko capture karke uska handling karta hai.
