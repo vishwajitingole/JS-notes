@@ -10,18 +10,15 @@
 //constructor function             -new blank object
 //event listener                   -element ki value jispar element lga ho
 
-
 //global scope
 // console.log(this);
 // O/P:- window
-
 
 //Function scope
 // function abcd() {
 //     console.log(this);
 // }
 // abcd();
-
 
 // Method Scope :-when a function is defined inside an object
 // var obj = {
@@ -33,7 +30,6 @@
 //     verified: true
 // }
 // obj.name();
-
 
 //function inside method (es5)     -window
 // var obj = {
@@ -49,7 +45,6 @@
 // }
 // obj.name();
 
-
 //function inside method (es6)     -object
 // var obj = {
 //     name: function abcd() {
@@ -62,16 +57,85 @@
 // }
 // obj.name();
 
-
 //constructor function             -new blank object
 // function add() {
 //     console.log(this);
 // }
 // const ans = new add();
 
-
 //event listener                   -element ki value jispar element lga ho
 // document.querySelector("button").addEventListener("click", function abcd() {
 //     console.log(this);
 // });
 //Click on the button Ctrl + Shift + I
+
+//var let const
+
+//var is functional var
+//let and const is block scope variable
+
+// var a=10;
+// var a=12;
+//We can redecalare var
+
+//let a=10;
+//let a=23;
+//We cannot redeclare let
+
+// const a=10;
+// const a=20;
+// We cannot redeclare const
+
+// We reassign let var
+// but not const
+
+// let a = 99;
+// const b = 90;
+// {
+//   let a = 20;
+//   const b = 200;
+//   var c = 30;
+//   console.log(a); //20
+//   console.log(b); //200
+// }
+// console.log(a); //99
+// console.log(b); //90
+// console.log(c); //30
+
+//global scope
+//Anything which isn't inside the block
+
+//function scope
+//anything is inside the function
+
+//block scope
+//anything is inside the block
+
+// Lexical Scope
+function outerFunction() {
+  const outerVariable = "I am from the outer function";
+
+  function innerFunction() {
+    // Accessing outerVariable from the lexical scope
+    console.log(outerVariable);
+  }
+
+  innerFunction();
+}
+
+outerFunction();
+
+// Closure
+function createClosure() {
+  const closureVariable = "I am from the closure";
+
+  function innerFunction() {
+    // Accessing closureVariable from the closure
+    console.log(closureVariable);
+  }
+
+  return innerFunction; // Returns a closure
+}
+
+const myClosure = createClosure();
+myClosure();
