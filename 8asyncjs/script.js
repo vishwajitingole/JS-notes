@@ -51,6 +51,10 @@
 fetch("https://fakestoreapi.com/products")
   .then((res) => res.json())
   .then((json) => console.log(json));
+//Yha pehle raw data aayega usse pehle json mein convert karna padega taaaki hum uss data ko use kar paaye
+console.log("Pehle chalega");
+//Agar hum koshish kare ki un resources ko access karne ki ko call ki jo abhi fetch se aani baaki hai toh
+//access nhi hogi uske liye hum .then kaa use karenge taaki wo tabhi chalega jab resources fetch se milegi tab
 
 //{axios} - api se data lene ke liye  (external library)
 
