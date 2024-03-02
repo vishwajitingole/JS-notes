@@ -1,41 +1,40 @@
-// string
-const myStr:string = ¨My Name¨;
+// String
+const myStr: string = "My Name";
 
-// number
-const myNum:number = 123;
+// Number
+const myNum: number = 123;
 
-// boolean
-const myBool:boolean = true;
+// Boolean
+const myBool: boolean = true;
 
-// array
-const myArr:string[]=[¨One¨,¨Two¨,¨Three¨];
-const myArr:number[]=[1,2,3];
+// Array of Strings
+const myStrArr: string[] = ["One", "Two", "Three"];
 
-// object
-cont myObj:{name:string; age:number}={name:¨name¨,age:100};
+// Array of Numbers
+const myNumArr: number[] = [1, 2, 3];
 
-// any
-const myObj:any={name:¨name¨,age:100};
+// Object with specific structure
+const myObj: { name: string; age: number } = { name: "name", age: 100 };
 
-// undefined:
-const notDefined:undefined=undefined;
+// Object with 'any' type (not recommended)
+const myAnyObj: any = { name: "name", age: 100 };
 
-// Programs with Typescript
+// Undefined
+const notDefined: undefined = undefined;
 
-const num1:number=45;
-const num2:number=55;
-const sumTwo=(a:number,b:number):number=>{
-return a+b;
+// Program with TypeScript
+const num1: number = 45;
+const num2: number = 55;
+const sumTwo = (a: number, b: number): number => {
+  return a + b;
 };
-console.log(sumTwo(num1,num2));
+console.log(sumTwo(num1, num2));
 
-// Interface in Typescript
-
-interface ISumTwo{
-(num1:number,num2:number):number;
+// Interface in TypeScript
+interface ISumTwo {
+  (num1: number, num2: number): number;
 }
-const num1:number=45;
-const num2:55;
-const sumTwo:ISumTwo=(a,b)=>{
-}
-console.log(sumTwo);
+const sumTwoFunc: ISumTwo = (a, b) => {
+  return a + b;
+};
+console.log(sumTwoFunc(num1, num2));
